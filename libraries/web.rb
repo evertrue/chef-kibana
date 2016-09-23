@@ -14,7 +14,7 @@ class Chef
 
     property(:name, String, name_property: true)
     property(:type, String, default: 'nginx')
-    property(:template_cookbook, String, default: 'kibana_lwrp')
+    property(:template_cookbook, String, default: 'et_kibana_lwrp')
     property(:template, String)
     property(:server_name, String, default: 'kibana.localhost')
     property(:server_aliases, Array, default: ['kibana'])

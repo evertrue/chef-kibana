@@ -1,5 +1,7 @@
-Kibana Library Cookbook
+Evertrue Fork of the Kibana Library Cookbook
 ===============
+
+Original available [here](https://github.com/lusis/chef-kibana)
 
 A library cookbook for installing kibana 4.
 
