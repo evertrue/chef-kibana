@@ -1,6 +1,13 @@
-# CHANGELOG for kibana
+# CHANGELOG for et_kibana_lwrp
 
 This file is used to list changes made in each version of kibana.
+
+## 1.0.1
+
+* Fork!
+* Switch to community-maintained **chef_nginx** cookbook
+
+# Pre-Evertrue fork
 
 ## 3.0.2
 * Fix a notification that was to runit_service[nginx] instead of service[nginx].
