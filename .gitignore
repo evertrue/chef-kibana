@@ -7,3 +7,5 @@ vendor/
 .bundle/
 bin/
 Gemfile.lock
+
+LATEST_CHANGELOG.md
