@@ -12,6 +12,7 @@ version '1.0.1'
 end
 
 depends 'libarchive', '>= 0.4.0'
+depends 'elasticsearch', '~> 2.4'
 
 supports 'ubuntu'
 supports 'debian'
