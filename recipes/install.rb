@@ -95,3 +95,5 @@ kibana_web 'kibana' do
   template 'kibana-nginx_file.conf.erb'
   not_if { node['kibana']['webserver'] == '' }
 end
+
+include_recipe 'et_kibana_lwrp::plugins'
