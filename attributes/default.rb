@@ -4,11 +4,11 @@ cookbook_name = 'et_kibana_lwrp'
 # `file` will download from elasticsearch.org
 # git is not really supported since the move to java based server.
 default['kibana']['install_type'] = 'file' # git | file
-default['kibana']['version'] = '4.2.1-linux-x64' # must match version number of kibana being installed
+default['kibana']['version'] = '4.6.2-linux-x86_64' # must match version number of kibana being installed
 
 # Values to use for git method of installation
 default['kibana']['git']['url'] = 'https://github.com/elasticsearch/kibana'
-default['kibana']['git']['branch'] = 'v3.1.2'
+default['kibana']['git']['branch'] = 'v4.6.2'
 default['kibana']['git']['type'] = 'sync' # checkout | sync
 default['kibana']['git']['config'] = 'kibana/config.js' # relative path of config file
 default['kibana']['git']['config_template'] = 'config.js.erb' # template to use for config
