@@ -5,7 +5,7 @@ license 'Apache 2.0'
 description 'Installs/Configures kibana'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
-version '1.0.1'
+version '1.1.0'
 
 %w(git chef_nginx apache2 ark java runit compat_resource).each do |cb|
   depends cb

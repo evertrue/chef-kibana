@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of kibana.
 
+## 1.1.0
+
+* Switch to "releases" changelog
+
 ## 1.0.1
 
 * Fork!
